@@ -2,7 +2,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 let config = {
-    prefix: process.env.PREFIX || ".",
+    prefix: process.env.PREFIX || "+",
     ownerName: process.env.OWNER_NAME || "𝚸𝚮𝚯𝚵𝚴𝚰𝚾",
     ownerNumber: process.env.OWNER_NUMBER || "254769677305",
     mode: process.env.MODE || "private",
